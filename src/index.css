@@ -1,0 +1,39 @@
+@import '@fontsource/poppins/400.css';
+@import '@fontsource/poppins/600.css';
+@import '@fontsource/poppins/700.css';
+@import '@fontsource/playfair-display/700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-pink-500 dark:to-purple-500;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.name-gradient {
+  @apply bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-pink-400 dark:to-purple-500;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input, textarea {
+  @apply border-gray-300 rounded-md;
+}
