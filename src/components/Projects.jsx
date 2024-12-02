@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProjectCard = ({ title, description, technologies, link, image }) => (
+const ProjectCard = ({ title, description, technologies, link, github_link,image }) => (
   <div className="overflow-hidden bg-white rounded-lg shadow-md">
     <div className="h-48 overflow-hidden">
       <img
@@ -22,14 +22,25 @@ const ProjectCard = ({ title, description, technologies, link, image }) => (
           </span>
         ))}
       </div>
+      <div className='flex justify-around pt-2'>
       <a
         href={link}
         target="_blank"
         rel="noopener noreferrer"
         className="text-blue-600 hover:text-blue-800"
       >
-        View Project →
+        Goto Live Project →
       </a>
+      
+      <a
+        href={github_link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:text-blue-800"
+      >
+        Goto Code →
+      </a>
+      </div>
     </div>
   </div>
 );

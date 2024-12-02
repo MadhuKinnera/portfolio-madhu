@@ -19,9 +19,9 @@ const Navbar = () => {
             whileHover={{ scale: 1.05 }}
           >
             <h1 className="text-2xl font-bold playfair">
-              <span className="text-transparent bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-pink-400 dark:to-pink-500 bg-clip-text">Madhu</span>
+              <span className="text-transparent bg-gradient-to-r from-pink-400 to-pink-500 bg-clip-text">Madhu</span>
               {' '}
-              <span className="text-transparent bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-purple-400 dark:to-purple-500 bg-clip-text">Kinnera</span>
+              <span className="text-transparent bg-gradient-to-r from-purple-400 to-purple-500 bg-clip-text">Kinnera</span>
             </h1>
           </motion.div>
           <div className="hidden sm:ml-6 sm:flex sm:items-center sm:space-x-8">

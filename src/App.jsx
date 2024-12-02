@@ -1,4 +1,3 @@
-import React from 'react';
 import { ThemeProvider } from './context/ThemeContext';
 import Navbar from './components/Navbar';
 import About from './components/About';
@@ -11,7 +10,7 @@ import './index.css';
 function App() {
   return (
     <ThemeProvider>
-      <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-200">
+      <div className="min-h-screen transition-colors duration-200 bg-white dark:bg-gray-900">
         <Navbar />
         <main>
           <About />
