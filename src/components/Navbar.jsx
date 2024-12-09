@@ -40,7 +40,12 @@ const Navbar = () => {
             ))}
             <ThemeToggle />
             <motion.button
-              onClick={() => window.open('/resume.pdf', '_blank')}
+           onClick={() => {
+              // Open the file link in a new tab
+               window.open('https://drive.google.com/file/d/1czFXtvFCmcfddYK3vTuQh_4mPYEGOP6G/view?usp=sharing', '_blank');
+          
+          }}
+          
               className="inline-flex items-center h-8 px-4 text-sm font-medium text-white bg-blue-600 border border-transparent rounded-md hover:bg-blue-700 dark:bg-pink-500 dark:hover:bg-pink-600"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
