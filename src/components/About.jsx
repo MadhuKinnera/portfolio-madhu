@@ -1,5 +1,5 @@
-import React from 'react';
 import { motion } from 'framer-motion';
+import { data } from '../data/profile_data';
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
         transition={{ duration: 1 }}
       >
         <img
-          src="https://images.unsplash.com/photo-1605379399642-870262d3d051?q=80&w=206&auto=format&fit=crop"
+          src={data.about.hero_backgrond_url}
           alt="Hero Background"
           className="object-cover w-full h-full"
         />
@@ -34,7 +34,7 @@ const About = () => {
               transition={{ type: "spring", stiffness: 260, damping: 20 }}
             >
               <img
-                src="https://madhukinnera.github.io/resources/propic2.jpg?q=80&w=2070&auto=format&fit=crop"
+                src={data.about.profile_image_url}
                 alt="Profile"
                 className="object-cover w-full h-full"
               />
@@ -46,10 +46,7 @@ const About = () => {
               transition={{ duration: 0.6, delay: 0.3 }}
             >
               <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-              I am a Java Backend Developer with 1+ year of experience, skilled in Spring Boot, Spring,
-               and Docker, with strong computer science fundamentals.
-               Passionate about clean code and efficient systems, I draw inspiration from my 
-               interest in philosophies to approach problems creatively.
+               {data.about.description}
               </p>
               <motion.div 
                 className="flex gap-4 mt-6"

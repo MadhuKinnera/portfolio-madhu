@@ -1,6 +1,6 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import ThemeToggle from './ThemeToggle';
+import { data } from '../data/profile_data';
 
 const Navbar = () => {
   const navItems = ['About', 'Experience', 'Skills', 'Projects', 'Contact'];
@@ -41,8 +41,7 @@ const Navbar = () => {
             <ThemeToggle />
             <motion.button
            onClick={() => {
-              // Open the file link in a new tab
-               window.open('https://drive.google.com/file/d/1czFXtvFCmcfddYK3vTuQh_4mPYEGOP6G/view?usp=sharing', '_blank');
+               window.open(data.navbar.resume_link,'_blank');
           
           }}
           

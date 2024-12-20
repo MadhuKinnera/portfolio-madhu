@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { data } from '../data/profile_data';
 
 const SkillCategory = ({ title, skills }) => (
   <div className="mb-8">
@@ -20,29 +21,7 @@ const SkillCategory = ({ title, skills }) => (
 );
 
 const Skills = () => {
-  const skillCategories = [
-    {
-      title: 'Programming Languages',
-      skills: ['Java', 'Go', 'JavaScript', 'Kotlin', 'C', 'C++']
-    },
-    {
-      title: 'Frameworks & Libraries',
-      skills: ['Spring Boot', 'Spring Framework', 'Hibernate', 'Spring Security', 'Maven', 'Jetpack Compose']
-    },
-    {
-      title: 'Databases',
-      skills: ['MySQL', 'Clickhouse', 'MongoDB', 'Redis']
-    },
-    {
-      title: 'DevOps & Tools',
-      skills: ['Docker', 'Git', 'Nginx', 'AWS']
-    },
-    {
-      title: 'Other Technologies',
-      skills: ['REST APIs', 'Web Sockets', 'Data Structures', 'Agile', 'Microservices', 'Linux']
-    }
-  ];
-  
+  const skillCategories = data?.skillCategories;
 
   return (
     <section id="skills" className="py-20 transition-colors duration-200 bg-gray-50 dark:bg-gray-800">
