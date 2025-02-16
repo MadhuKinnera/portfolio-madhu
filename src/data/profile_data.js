@@ -5,7 +5,7 @@ export const data = {
   about: {
     hero_backgrond_url:"https://images.unsplash.com/photo-1605379399642-870262d3d051?q=80&w=206&auto=format&fit=crop",
     profile_image_url:"https://madhukinnera.github.io/resources/propic2.jpg?q=80&w=2070&auto=format&fit=crop",
-    description:" I am a Java Backend Developer with 1+ year of experience, skilled in Spring Boot, Spring,and Docker, with strong computer science fundamentals.Passionate about clean code and efficient systems, I draw inspiration from my interest in philosophies to approach problems creatively.",
+    description:" I am a Java Backend Developer with 1.5+ year of experience, skilled in Spring Boot, Spring,and Docker, with strong computer science fundamentals.Passionate about clean code and efficient systems, I draw inspiration from my interest in philosophies to approach problems creatively.",
   },
 
   education : [
