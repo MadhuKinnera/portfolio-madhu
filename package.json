@@ -17,7 +17,7 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@heroicons/react": "^2.1.1",
     "fa": "^1.0.1",
-    "fab": "^1.0.0-rc.9",
+    "fab": "^0.5.2",
     "framer-motion": "^11.0.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

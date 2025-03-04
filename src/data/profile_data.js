@@ -33,13 +33,13 @@ export const data = {
       year: '2024 Apr - Present',
       title: 'Software Development Engineer',
       company: 'NoBroker Technologies Solutions Pvt Lmt',
-      description: 'Migrated date fields to epoch in MongoDB to enhance data consistency, optimized the employee attendance flow for thousands of daily users, improved refresh API response time from 2 seconds to 400ms, boosting customer satisfaction by 30%, and developed a flexible generic attribution storage system.'
+      description: 'I designed and developed a robust <b>Contract Management Service</b> that supports multi-party agreements, multi-tenancy, job scheduling, and notification systems, seamlessly integrating across multiple business verticals.<br><br> To enhance operational efficiency, I engineered a high-throughput ticketing system that handles 10,000+ daily ticket creations while implementing a graceful rollback mechanism for over 50,000 failed tickets. Additionally, I developed a custom auto-assignment algorithm to optimize agent ticket distribution, ensuring faster resolution times. My work also involved integrating and streamlining <b>social media ticket</b> processing, enabling seamless customer interactions across multiple platforms.<br><br> Beyond ticketing, I built a <b>dynamic query generation framework</b> leveraging ClickHouse and Apache Pinot, allowing efficient handling of 20M+ rows and reducing query response times from 6 seconds to under 1 second.<br><br> I also played a key role in optimizing the <b>employee attendance flow</b>, improving a system used daily by thousands of internal employees, significantly enhancing operational efficiency.'
     },
     {
       year: '2023 May - 2023 Sep',
       title: 'Software Trainee',
       company: 'Clayfin Technologies Pvt Lmt',
-      description: 'Developed 36 REST APIs within a month and contributed to a team of 11 in building the **Personal Financial Management (PFM)** project, showcasing efficiency and teamwork.'
+      description: 'Developed 36 REST APIs within a month and contributed to a team of 11 in building the <b>Personal Financial Management (PFM)</b> project, showcasing efficiency and teamwork.'
     }
   ],
  skillCategories : [

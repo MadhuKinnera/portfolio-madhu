@@ -7,7 +7,7 @@ const TimelineItem = ({ year, title, company, description }) => (
     <div className="text-sm font-semibold text-blue-600 dark:text-blue-400">{year}</div>
     <div className="mt-1 text-xl font-bold text-gray-900 dark:text-white">{title}</div>
     <div className="text-gray-600 dark:text-gray-300">{company}</div>
-    <p className="mt-2 text-gray-600 dark:text-gray-300">{description}</p>
+    <p className="mt-2 text-gray-600 dark:text-gray-300" dangerouslySetInnerHTML={{ __html: description }} />
   </div>
 );
 
